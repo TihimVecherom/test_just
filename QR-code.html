@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-	<title>Восстановление пароля</title>
+	<title>QR-code</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
@@ -20,27 +20,17 @@
 			</div>
 		</header>
 		<main class="page">
-			<div class="authorization password-recovery">
-				<div class="authorization__container ">
-					<div class="authorization__logo-min logo-ibg">
-						<picture><source srcset="img/form/Logo-min.webp" type="image/webp"><img src="img/form/Logo-min.png" alt="Logo" class="authorization__img"></picture>
+			<div id="popap-qr" class="products__successful-payment visible">
+				<div class="products__successful-payment-container">
+					<div class="products__successful-payment-text">Операція успішна!</div>
+					<div class="products__successful-payment-picture pictire-ibg">
+						<img class="products__successful-payment-img" src="img/products/QR.svg" alt="QR-code">
 					</div>
-					<div class="authorization__text">Забули пароль?</div>
-				</div>
-				<div class="authorization__form">
-					<div class="authorization__form-number">
-						<div class="authorization__input-text">Вкажіть номер мобільного телефону та ми відправимо вам код для
-							відновлення доступу до застосунку</div>
-						<input autocomplete="off" type="tel" placeholder="+380 ... " class="input">
+					<div class="products__successful-payment-paragraf">фіскальний чек, клієнт може відсканувати
 					</div>
-				</div>
-
-				<div class="authorization__button">
-					<a class="button" href="password-recovery-code.html">Отримати код</a>
 				</div>
 			</div>
 		</main>
-
 	</div>
 	<!-- 
 <div id="popup" aria-hidden="true" class="popup">
